@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web-Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/map.css" />
+  </head>
+  <body>
+    <!-- Heder -->
+    <header>
+      <!-- Navigation block-->
+      <nav class="section nav">
+        <a href="./index.html" class="logo">
+          Web <span class="logo-accent">Studio</span>
+        </a>
+        <!--Container for viewport tel-->
+
+        <button
+          data-menu-button
+          aria-controls="menu-container"
+          aria-expanded="false"
+          class="menu-button"
+        >
+          <svg
+            class="icon-mobile-menu"
+            width="40px"
+            height="40px"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="icon-menu"
+              href="./images/symbol-defs.svg#icon-menu"
+            ></use>
+            <use
+              class="icon-cross"
+              href="./images/symbol-defs.svg#icon-vector"
+            ></use>
+          </svg>
+        </button>
+        <div data-menu id="menu-container" class="menu-container">
+          <div class="nav-container">
+            <ul class="site-nav">
+              <li class="item">
+                <a class="nav-link " href="./index.html">Студия</a>
+              </li>
+              <li class="item">
+                <a class="nav-link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="item">
+                <a class="nav-link current" href="./contact.html">Контакты</a>
+              </li>
+            </ul>
+            <!--Contacts-->
+            <address class="adress-nav">
+              <ul class="auth-nav">
+                <li class="auth-item item">
+                  <a href="mailto:info@devstudio.com">
+                    <svg class="icon-mail">
+                      <use href="./images/symbol-defs.svg#icon-mail"></use>
+                    </svg>
+                  </a>
+                  info@devstudio.com
+                </li>
+                <li class="auth-item item">
+                  <a class="adress-tel" href="tel:+380961111111">
+                    <svg class="icon-phone">
+                      <use href="./images/Icons/phone.svg"></use>
+                    </svg>
+                  </a>
+                  +38 096 111 11 11
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+     
+   <!-- Sector -->
+   <div class="map">
+    <div id="map" ><iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.024728094805!2d-0.0244596!3d51.481618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876028d3d5e6a1d%3A0xafeadd32c27e8bde!2sBounty%20House%2C%20Stowage%2C%20London%20SE8%203DE!5e0!3m2!1sen!2suk!4v1689073490491!5m2!1sen!2suk"></iframe></div>
+    <div class="map-c">
+      <h1>ABC Stores</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id cumque est dolores voluptatibus.</p>
+      <div class="det"> 102 New Road, New City</div>  <!--Add svg?-->
+      <div class="det"> 001 2045 509</div>
+      <div class="det"> www.abcstores.com</div>
+      <div>
+      
+    </div>
+  </div>
+   
+
+    
+     
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-site section">
+        <div class="footer-container">
+          <div class="footer-connection">
+            <a href="./index.html" class="logo">
+              Web <span class="logo-accent">Studio</span></a
+            >
+            <address class="footer-adress">
+              <p class="location">г. Киев, пр-т Леси Украинки, 26</p>
+              <a class="adress-mail" href="mailto:info@devstudio.com"
+                >info@example.com</a
+              >
+              <a class="adress-tel" href="tel:+380991111111"
+                >+38 099 111 11 11
+              </a>
+            </address>
+          </div>
+          <div class="footer-follow">
+            <b class="footer-text">присоединяйтесь</b>
+            <ul class="footer-links">
+              <li>
+                <a class="footer-linkbox" href="https://www.instagram.com/">
+                  <svg class="footer-socialnet" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="footer-linkbox" href="https://twitter.com/">
+                  <svg class="footer-socialnet" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="footer-linkbox" href="https://www.facebook.com/">
+                  <svg class="footer-socialnet" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-Facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="footer-linkbox" href="https://www.linkedin.com/">
+                  <svg class="footer-socialnet" width="20px" height="20px">
+                    <use href="images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <form action="#">
+          <div class="footer-mailing">
+            <b class="footer-text">Подпишитесь на рассылку</b>
+            <div class="feedback">
+              <input
+                class="footer-email"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+              <a class="footer-button"
+                >Подписаться
+                <svg class="socialnet" width="24px" height="24px">
+                  <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </footer>
+    
+      
+    
+    <script src="js/menu.js"></script>
+    
+  </body>
+</html>
