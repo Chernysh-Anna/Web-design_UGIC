@@ -1051,18 +1051,24 @@ header .auth-item:focus {
 }
 
 .feature-img {
+  width: 290px;
+  height: 160px;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   border-radius: 4px;
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .feature-img {
     margin-bottom: 30px;
   }
-}
+} */
 
+.feature-main div {
+  display: flex;
+  justify-content: center;
+}
 .feature-icon {
   width: 70px;
   height: 70px;
