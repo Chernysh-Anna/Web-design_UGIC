@@ -1,11 +1,4 @@
-/*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-/*
-Document
-========
-*/
-/**
-Use a better box model (opinionated).
-*/
+
 *,
 *::before,
 *::after {
@@ -13,62 +6,25 @@ Use a better box model (opinionated).
           box-sizing: border-box;
 }
 
-/**
-Use a more readable tab size (opinionated).
-*/
-:root {
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-     tab-size: 4;
-}
 
-/**
-1. Correct the line height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
+/** Correct the line height in all browsers.
 */
 html {
   line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
 }
 
-/*
-Sections
-========
-*/
-/**
-Remove the margin in all browsers.
-*/
 body {
   margin: 0;
 }
 
-/**
-Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
-*/
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-/*
-Grouping content
-================
-*/
-/**
-Add the correct height in Firefox.
-*/
 hr {
   height: 0;
 }
 
-/*
-Text-level semantics
-====================
-*/
-/**
-Add the correct text decoration in Chrome, Edge, and Safari.
-*/
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
@@ -869,6 +825,7 @@ header .auth-item:focus {
 .form-field {
   position: relative;
   margin-bottom: 28px;
+  
   width: 448px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -882,7 +839,7 @@ header .auth-item:focus {
 .modal-label {
   position: absolute;
   top: 50%;
-  left: 42px;
+  left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 100%;
@@ -977,13 +934,16 @@ header .auth-item:focus {
   left: 16px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  
 }
+
 
 .modal-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   width: 100%;
   height: 40px;
+  
 }
 
 .modal-input:focus + .modal-label,
@@ -1180,7 +1140,7 @@ header .auth-item:focus {
 }
 
 .team {
-  padding-left: 15px;
+  padding-left: 40px;
   padding-right: 15px;
 }
 
