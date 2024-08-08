@@ -12,6 +12,7 @@
     width: 65%;
     height: 100%;
     display: inline-block
+
   }
   
   .map-c {
@@ -19,7 +20,9 @@
     width: 35%;
     height: 100%;
     padding: 25px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #757575;
   }
   iframe{
     width: 100%;
@@ -30,13 +33,13 @@
     margin: 0;
     font-weight: normal;
     color: rgb(60, 60, 70);
-    font-size: 28px
+    font-size: 28px;
+    margin-bottom: 5%;
   }
   
   p {
     font-size: 13px;
-    margin-top: 20px;
-    margin-bottom: 30px
+    margin-bottom: 5%;
   }
   
   .det {
@@ -49,8 +52,20 @@
     font-size: 18px !important;
     margin: 0 8px 0 0
   }
-  
-
+  a {
+    color: #757575;
+    margin-bottom: 5%;
+  }
+li {
+  margin-bottom: 2%;
+}
+legend {
+  padding: 3%;
+}
+fieldset {
+  background-color: transparent;
+  border-color: #2196f3;
+}
   
 
 
