@@ -1127,7 +1127,7 @@ header .auth-item:hover
 }
 
 .team {
-  padding-left: 40px;
+  padding-left: 30px;
   padding-right: 15px;
 }
 
@@ -1444,20 +1444,18 @@ header .auth-item:hover
 .footer .logo-accent {
   color: #ffffff;
 }
-
-.footer .adress-mail {
-  margin-bottom: 8px;
+.adress-mail {
+  color: #757575;
   font-family: Roboto, sans-serif;
   font-style: normal;
-  line-height: 24px;
+  line-height: 16px;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
 }
 
-.footer .adress-tel {
+
+.footer .adress {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
   font-style: normal;
