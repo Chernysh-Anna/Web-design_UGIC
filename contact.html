@@ -12,75 +12,79 @@
     <link rel="stylesheet" href="./CSS/map.css" />
   </head>
   <body>
-    <!-- Heder -->
-    <header>
-      <!-- Navigation block-->
-      <nav class="section nav">
-        <a href="./index.html" class="logo">
-          Web <span class="logo-accent">Studio</span>
-        </a>
-        <!--Container for viewport tel-->
+  <!-- Heder -->
+  <header>
+    <!-- Navigation block-->
+    <nav class="section nav">
+      <a href="./index.html" class="logo">
+        <span class="logo-accent">Wanderlust</span>
+      </a>
+      <!-- Container for viewport tel-->
 
-        <button
-          data-menu-button
-          aria-controls="menu-container"
-          aria-expanded="false"
-          class="menu-button"
-        >
-          <svg
-            class="icon-mobile-menu"
-            width="40px"
-            height="40px"
-            aria-label="Переключатель мобильного меню"
-          >
-            <use
-              class="icon-menu"
-              href="./images/symbol-defs.svg#icon-menu"
-            ></use>
-            <use
-              class="icon-cross"
-              href="./images/symbol-defs.svg#icon-vector"
-            ></use>
-          </svg>
-        </button>
-        <div data-menu id="menu-container" class="menu-container">
-          <div class="nav-container">
-            <ul class="site-nav">
-              <li class="item">
-                <a class="nav-link " href="./index.html">Студия</a>
+     
+
+    <button
+      data-menu-button
+      aria-controls="menu-container"
+      aria-expanded="false"
+      class="menu-button"
+  >
+      <img
+          class="icon-menu"
+          src="images/Icon/bars-solid.svg"
+          width="40px"
+          height="40px"
+          alt="Menu Icon"
+      />
+      <img
+          class="icon-cross"
+          src="images/Icon/xmark-solid.svg"
+          width="40px"
+          height="40px"
+          alt="Close Icon"
+          
+      />
+  </button>
+      
+      <div data-menu id="menu-container" class="menu-container">
+        <div class="nav-container">
+          <ul class="site-nav">
+            <li class="item">
+              <a class="nav-link " href="./index.html">Home</a>
+            </li>
+            <li class="item">
+              <a class="nav-link" href="./portfolio.html">Destination</a>
+            </li>
+            <li class="item">
+              <a class="nav-link current" href="./contact.html">Contacts</a>
+            </li>
+          </ul>
+          <!--Contacts-->
+          <address class="adress-nav">
+            <ul class="auth-nav">
+              <li class="auth-item item">
+                <a href="mailto:info@wanderlust.com">
+                  
+                    <svg class="icon-mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                </a>
+                info@wanderlust.com
               </li>
-              <li class="item">
-                <a class="nav-link" href="./portfolio.html">Портфолио</a>
-              </li>
-              <li class="item">
-                <a class="nav-link current" href="./contact.html">Контакты</a>
+              <li class="auth-item item">
+                <a  href="tel:+44781111111">
+                  <!--Change svg from font awsome-->
+                  
+                    <svg class="icon-mail" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                  
+                                      
+                </a>
+                +44 78 111 11 11
               </li>
             </ul>
-            <!--Contacts-->
-            <address class="adress-nav">
-              <ul class="auth-nav">
-                <li class="auth-item item">
-                  <a href="mailto:info@devstudio.com">
-                    <svg class="icon-mail">
-                      <use href="./images/symbol-defs.svg#icon-mail"></use>
-                    </svg>
-                  </a>
-                  info@devstudio.com
-                </li>
-                <li class="auth-item item">
-                  <a class="adress-tel" href="tel:+380961111111">
-                    <svg class="icon-phone">
-                      <use href="./images/Icons/phone.svg"></use>
-                    </svg>
-                  </a>
-                  +38 096 111 11 11
-                </li>
-              </ul>
-            </address>
-          </div>
+          </address>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
     <main>
      
    <!-- Sector -->
