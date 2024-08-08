@@ -816,7 +816,9 @@ header .auth-item:focus {
 
 .card-img {
   display: block;
+  width: 100%;
 }
+
 
 .card-title {
   display: block;
