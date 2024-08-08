@@ -303,6 +303,7 @@ img {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .hidden {
@@ -966,6 +967,7 @@ header .auth-item:hover
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin: -15px;
+    padding-top: 2%;
   }
 }
 
