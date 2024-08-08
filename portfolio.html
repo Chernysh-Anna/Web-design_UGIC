@@ -90,34 +90,27 @@
         <!--Filter-->
         <ul class="filter-menu">
           <li class="filter-list">
-            <button class="filter-button active" type="button">All</button>
+            <button class="filter-button active" type="button" onclick="filterSelection('all')">All</button>
           </li>
           <li class="filter-list">
-            <button class="filter-button" type="button"> Europe</button>
+            <button class="filter-button" type="button" onclick="filterSelection('europe')"> Europe</button>
           </li>
           <li class="filter-list">
-            <button class="filter-button" type="button">America</button>
+            <button class="filter-button" type="button" onclick="filterSelection('america')">America</button>
           </li>
           <li class="filter-list">
-            <button class="filter-button" type="button"> Asia</button>
+            <button class="filter-button" type="button" onclick="filterSelection('asia')"> Asia</button>
           </li>
           
         </ul>
         <!--Cards-->
-        <ul class="card">
-          <li class="card-box">
-            <a class="card-link" href="">
-              <div class="card-overlay">
+        <ul class="card" data-modal-open>
+          <li class="card-box  europe" >
+            <a class="card-link" >
+              <div class="card-overlay" >
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio1-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio1-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio1-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio1-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio1-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio1-450@2x.jpg 900w
-                  "
+                 
                   src="./images/Portfolio/Mob-portfolio1-450.jpg"
                   alt="Portfolio1"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -138,19 +131,12 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box  europe"  >
+            <a class="card-link"  >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio2-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio2-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio2-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio2-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio2-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio2-450@2x.jpg 900w
-                  "
+                 
                   src="./images/Portfolio/Mob-portfolio2-450.jpg"
                   alt="Portfolio2"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -171,19 +157,12 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box europe" >
+            <a class="card-link" >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio3-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio3-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio3-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio3-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio3-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio3-450@2x.jpg 900w
-                  "
+                 
                   src="./images/Portfolio/Mob-portfolio3-450.jpg"
                   alt="Portfolio1"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -204,19 +183,12 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box america" >
+            <a class="card-link" >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio4-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio4-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio4-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio4-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio4-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio4-450@2x.jpg 900w
-                  "
+                  
                   src="./images/Portfolio/Mob-portfolio4-450.jpg"
                   alt="Portfolio1"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -237,20 +209,14 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box america" >
+            <a class="card-link" >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio5-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio5-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio5-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio5-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio5-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio5-450@2x.jpg 900w
-                  "
-                  i
+                  
+                  
+                
                   src="./images/Portfolio/Mob-portfolio5-450.jpg"
                   alt="Portfolio1"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -271,19 +237,12 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box america" >
+            <a class="card-link" >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio6-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio6-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio6-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio6-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio6-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio6-450@2x.jpg 900w
-                  "
+                  
                   src="./images/Portfolio/Mob-portfolio6-450.jpg"
                   alt="Portfolio1"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -304,19 +263,12 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box asia" >
+            <a class="card-link" >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio7-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio7-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio7-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio7-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio7-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio7-450@2x.jpg 900w
-                  "
+                  
                   src="./images/Portfolio/Mob-portfolio7-450.jpg"
                   alt="Portfolio1"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -337,19 +289,12 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box asia" >
+            <a class="card-link" >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio8-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio8-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio8-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio8-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio8-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio8-450@2x.jpg 900w
-                  "
+                  
                   src="./images/Portfolio/Mob-portfolio8-450.jpg"
                   alt="Portfolio8"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -370,19 +315,12 @@
               </div>
             </a>
           </li>
-          <li class="card-box">
-            <a class="card-link" href="">
+          <li class="card-box asia" >
+            <a class="card-link" >
               <div class="card-overlay">
                 <img
                   class="card-img"
-                  srcset="
-                    ./images/Portfolio/Tab-portfolio9-354.jpg    354w,
-                    ./images/Portfolio/Des-portfolio9-370.jpg    370w,
-                    ./images/Portfolio/Mob-portfolio9-450.jpg    450w,
-                    ./images/Portfolio/Tab-portfolio9-354@2x.jpg 708w,
-                    ./images/Portfolio/Des-portfolio9-370@2x.jpg 740w,
-                    ./images/Portfolio/Mob-portfolio9-450@2x.jpg 900w
-                  "
+                 
                   src="./images/Portfolio/Mob-portfolio9-450.jpg"
                   alt="Portfolio9"
                   sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, (max-width: 479px) 450px"
@@ -476,6 +414,94 @@
         </form>
       </div>
     </footer>
+    <!--Modal Window-->
+    
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-button" data-modal-close>
+          
+            <svg class="modal-close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+         
+        </button>
+        <h3 class="modal-title">Leave a request for a tour</h3>
+        <form action="" method="POST"> <!--NOTHING FOR ACTION(NO LINK)-->
+          <div class="input-area">
+            <div class="form-field">
+              <input
+                class="modal-input"
+                type="text"
+                name="customername"
+                id="name"
+                placeholder=" "
+                required
+              />
+              <label class="modal-label" for="name">
+                <span class="field-name">Name</span>
+              </label>
+              
+            </div>
+            <div class="form-field">
+              <input
+                class="modal-input"
+                type="text"
+                name="telephone"
+                id="tel"
+                placeholder="  "
+                required
+                
+              />
+              <label class="modal-label" for="tel">
+                <span class="field-name">Phone number</span>
+              </label>
+             
+              
+            </div>
+            <div class="form-field">
+              <input
+                class="modal-input"
+                type="text"
+                name="email"
+                id="email"
+                placeholder=" "
+                required
+              />
+              <label class="modal-label" for="email">
+                <span class="field-name">Email</span>
+              </label>              
+            </div>
+            <div class="field-textarea">
+              <textarea
+                class="textarea"
+                name="comment"
+                cols="30"
+                rows="10"
+                placeholder="Describe your wishes"
+              ></textarea>
+
+              <label class="field-checkbox">
+                <input class="checkbox" type="checkbox" checked required/>
+                <span class="checkbox-icon"></span>
+                <span
+                  >I agree to receive the newsletter and accept the
+                  <a href="">Terms and Conditions</a>
+                </span>
+              </label>
+
+              <div class="modal-button">
+                <button type="submit" class="button modal-button">
+                  <span class="submit">Send</span>
+                </button>
+              </div>
+            </div>
+            <!-- <button>Send</button> -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </form>
+    <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/filter.js"></script>
+
   </body>
 </html>
