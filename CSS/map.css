@@ -4,7 +4,7 @@
     margin: 10% auto;
     box-shadow: 0 0 40px -10px black;
     background: rgb(240, 240, 240);
-    font-family: 'Montserrat', sans-serif;
+    font-family: Roboto, sans-serif;
     max-width: calc(100vw - 60px)
   }
   
@@ -46,13 +46,6 @@
     font-size: 12px;
     margin-bottom: 15px
   }
-  
-  i {
-    float: left;
-    font-size: 18px !important;
-    margin: 0 8px 0 0
-  }
-  
   .map-c a {
     color: #757575;
     margin-bottom: 5%;
